@@ -42,10 +42,6 @@
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/njugunapm233/fullstackportfolio.git"
-  },
   "keywords": [
     "react",
     "portfolio",
@@ -53,9 +49,5 @@
     "cms"
   ],
   "author": "PcodesDev",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/njugunapm233/fullstackportfolio/issues"
-  },
-  "homepage": "https://github.com/njugunapm233/fullstackportfolio#readme"
+  "license": "ISC"
 }
