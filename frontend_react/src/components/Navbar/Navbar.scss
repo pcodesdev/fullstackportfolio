@@ -106,7 +106,7 @@
     align-items: flex-end;
     flex-direction: column;
 
-    background: url("../../assets/accordion.jpg");
+    background: url("../../assets/accordion.webp");
     background-color: var(--white-color);
     background-size: cover;
     background-repeat: repeat;
@@ -135,7 +135,7 @@
         margin: 1rem;
 
         a {
-          color: var(--white-color);
+          color: var(--black-color);
           text-decoration: none;
           font-size: 1rem;
           text-transform: uppercase;
