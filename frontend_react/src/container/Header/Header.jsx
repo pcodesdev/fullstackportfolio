@@ -18,11 +18,11 @@ const scaleVariants = {
 };
 const Header = () => {
   return (
-    <div className="app__header app__flex" style={{ backgroundColor: "white" }}>
+    <div id="home" className="app__header app__flex">
       <motion.div
         className="app__header-info"
         whileInView={{ x: [-100, 0], opacity: [0, 1] }}
-        transition={{ duration: 3 }}
+        transition={{ duration: 1 }}
       >
         <div className="app__header-badge">
           <div className="badge-cmp app__flex">
@@ -55,7 +55,7 @@ const Header = () => {
         />
       </motion.div>
       <motion.div
-        classsName="app__header-circles"
+        className="app__header-circles"
         variant={scaleVariants}
         whileInView={scaleVariants.whileInView}
       >
