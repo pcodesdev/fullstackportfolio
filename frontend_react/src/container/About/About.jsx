@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import { images } from "../../constants";
-import about4 from "../../assets/about4.png";
-import about5 from "../../assets/about5.png";
+// import { images } from "../../constants";
+// import about4 from "../../assets/about4.png";
+// import about5 from "../../assets/about5.png";
+import { AppWrap } from "../../wrapper";
 import "./About.scss";
 import { urlFor, client } from "../../client";
 
@@ -46,7 +47,7 @@ const About = () => {
 
   return (
     <>
-      <h3 className="head-text">
+      <h4 className="head-text">
         I Know that <span>"A successful website does three things: </span>
         It attracts the right kinds of visitors.
         <br />
@@ -54,7 +55,7 @@ const About = () => {
         <br />
         Collect Contact details for future ongoing relation.
         <span>" ― Mohamed Saad</span>
-      </h3>
+      </h4>
       <div className="app__profiles">
         {abouts.map((about, index) => (
           <motion.div
@@ -62,7 +63,7 @@ const About = () => {
             whileHover={{ scale: 1.1 }}
             transition={{ duration: 0.5, type: "tween" }}
             className="app__profile-item"
-            ket={about.title + index}
+            key={about.title + index}
           >
             <img src={urlFor(about.imgUrl)} alt={about.title} />
             <h2 className="bold-text" style={{ marginTop: 20 }}>
@@ -78,4 +79,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default AppWrap(About, "about");
