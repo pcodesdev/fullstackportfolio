@@ -23,7 +23,7 @@ const Header = () => {
       <motion.div
         className="app__header-info"
         whileInView={{ x: [-100, 0], opacity: [0, 1] }}
-        transition={{ duration: 1 }}
+        transition={{ duration: 3 }}
       >
         <div className="app__header-badge">
           <div className="badge-cmp app__flex">
