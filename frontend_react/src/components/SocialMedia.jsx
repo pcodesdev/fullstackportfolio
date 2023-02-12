@@ -2,6 +2,7 @@ import React from "react";
 
 import { BsTwitter, BsLinkedin } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
+import { SiHashnode } from "react-icons/si";
 
 const SocialMedia = () => {
   return (
@@ -17,8 +18,13 @@ const SocialMedia = () => {
         </a>
       </div>
       <div>
-        <a href="https://github.com/njugunapm233">
+        <a href="https://github.com/pcodesdev">
           <FaGithub />
+        </a>
+      </div>
+      <div>
+        <a href="https://pcodesdev.hashnode.dev/">
+          <SiHashnode />
         </a>
       </div>
     </div>

@@ -47,14 +47,12 @@ const About = () => {
 
   return (
     <>
-      <h4 className="head-text">
-        I Know that <span>"A successful website does three things: </span>
-        It attracts the right kinds of visitors.
-        <br />
-        Guides them to the main services or product you offer.
-        <br />
-        Collect Contact details for future ongoing relation.
-        <span>" ― Mohamed Saad</span>
+      <h4 className="head-text main__text">
+        Experienced IT specialist with a passion for cloud computing and
+        cybersecurity. Skilled in fullstack development, web design, and IT
+        support, I also have a strong track record in delivering effective IT
+        training. Committed to staying at the forefront of technology, I bring a
+        wealth of knowledge and experience to any project I work on.
       </h4>
       <div className="app__profiles">
         {abouts.map((about, index) => (

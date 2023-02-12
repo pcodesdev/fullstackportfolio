@@ -4,6 +4,13 @@
   flex-direction: column;
 }
 
+.main__text {
+  // font-size: 72px;
+  background: -webkit-linear-gradient(#1c1d1c, #1d44c2, #2a3149);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .app__profiles {
   display: flex;
   justify-content: center;
