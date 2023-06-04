@@ -16,7 +16,7 @@ const Navbar = () => {
       </div>
       <ul className="app__navbar-links">
         {["home", "about", "work", "skills", "contact"].map((item) => (
-          <li className="app__flex p-text glow-on-hover" key={`link-${item}`}>
+          <li style={{backgroundColor:"#002bff"}} className="app__flex p-text glow-on-hover" key={`link-${item}`}>
             <div />
             <a href={`#${item}`}>{item}</a>
           </li>
@@ -33,7 +33,7 @@ const Navbar = () => {
 
             <ul>
               {["home", "about", "work", "skills", "contact"].map((item) => (
-                <li key={item}>
+                <li className="glow-on-hover" key={item}>
                   <a href={`#${item}`} onClick={() => setToggle(false)}>
                     {item}
                   </a>

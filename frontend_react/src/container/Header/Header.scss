@@ -115,6 +115,8 @@
     img {
       width: 60%;
       height: 60%;
+      
+      z-index: 0;
     }
   }
 
@@ -182,6 +184,7 @@
 .app__header-img {
   flex: 1;
   height: 100%;
+  
 
   display: flex;
   justify-content: flex-end;
@@ -192,6 +195,8 @@
     width: 100%;
     object-fit: contain;
     z-index: 1;
+    border-radius: 50%;
+    box-shadow: 10px 10px 20px 20px rgb(8, 34, 105)
   }
 
   .overlay_circle {

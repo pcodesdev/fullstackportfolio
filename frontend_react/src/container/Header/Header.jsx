@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 import { AppWrap } from "../../wrapper";
 import { images } from "../../constants";
-import profile from "../../assets/peter1.png";
+import profile from "../../assets/petero.png";
 import bootstrap from "../../assets/bootstrap.png";
 import "./Header.scss";
 
