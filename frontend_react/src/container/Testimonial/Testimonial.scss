@@ -131,10 +131,11 @@
     margin: 1.5rem;
 
     img {
-      width: 100%;
-      height: auto;
+      width: 5rem;
+      height: 5rem;
       object-fit: cover;
       filter: grayscale(1);
+      border-radius: 1rem;
     }
 
     &:hover {
